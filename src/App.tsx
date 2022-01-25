@@ -20,6 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <form action=''>Input Form</form>
     </div>
   );
 }
