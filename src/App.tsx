@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className='App'>
       <header className='App-header'>
         <h1>Square to Round Converter</h1>
-        <img src={logo} className='App-logo' alt='logo' />
+        {/* <img src={logo} className='App-logo' alt='logo' /> */}
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
