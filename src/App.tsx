@@ -1,5 +1,5 @@
 import React from 'react';
-import { Type } from 'typescript';
+//import { Type } from 'typescript';
 //import logo from './logo.svg';
 import './App.css';
 
