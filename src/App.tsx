@@ -7,7 +7,11 @@ import './App.css';
 // const width: number;
 // const height: number;
 
-//document.getElementById('btn').addEventListener('click', calculate);
+/* function calculate() {
+  console.log('this works');
+} */
+
+//document.getElementById('calculate').addEventListener('click', calculate);
 
 function App() {
   return (
