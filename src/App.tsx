@@ -7,9 +7,13 @@ import './App.css';
 // const width: number;
 // const height: number;
 
-/* function calculate() {
-  console.log('this works');
-} */
+function calculate() {
+  console.log(calculate);
+}
+
+window.addEventListener('click', (event) => {
+  // ...
+});
 
 //document.getElementById('calculate').addEventListener('click', calculate);
 
@@ -31,11 +35,11 @@ function App() {
           Learn React
         </a>
         <br />
-        <form action=''>
+        {/* <form action=''>
           <br />
           <legend>Input Form</legend>
           <label>Length </label>
-          <input type='text' className='length' />
+          <input type='text' className='length' name='length' />
           <br />
           <label>Width </label>
           <input type='text' className='width' />
@@ -43,10 +47,40 @@ function App() {
           <label>Height </label>
           <input type='text' className='height' />
           <br />
-          <button className='btn' id='calculate'>
+          <button className='btn' id='calculate' onClick={calculate}>
             Calculate
           </button>
-        </form>
+        </form> */}
+        <table>
+          <tbody>
+            <tr>
+              <td>Length: </td>
+              <td>
+                <input type='text' />
+              </td>
+            </tr>
+            <tr>
+              <td>Width: </td>
+              <td>
+                <input type='text' />
+              </td>
+            </tr>
+            <tr>
+              <td>Height: </td>
+              <td>
+                <input type='text' />
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <button className='btn' id='calculate' onClick={calculate}>
+                  Calculate
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </header>
     </div>
   );
