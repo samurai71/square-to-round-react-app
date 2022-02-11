@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/square-to-round-react-app/static/css/main.f523cbf5.css",
-    "main.js": "/square-to-round-react-app/static/js/main.b69bc5d4.js",
+    "main.css": "/square-to-round-react-app/static/css/main.7b0118a3.css",
+    "main.js": "/square-to-round-react-app/static/js/main.e0a665c6.js",
     "static/js/787.cfe3ea6f.chunk.js": "/square-to-round-react-app/static/js/787.cfe3ea6f.chunk.js",
     "index.html": "/square-to-round-react-app/index.html",
-    "main.f523cbf5.css.map": "/square-to-round-react-app/static/css/main.f523cbf5.css.map",
-    "main.b69bc5d4.js.map": "/square-to-round-react-app/static/js/main.b69bc5d4.js.map",
+    "main.7b0118a3.css.map": "/square-to-round-react-app/static/css/main.7b0118a3.css.map",
+    "main.e0a665c6.js.map": "/square-to-round-react-app/static/js/main.e0a665c6.js.map",
     "787.cfe3ea6f.chunk.js.map": "/square-to-round-react-app/static/js/787.cfe3ea6f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f523cbf5.css",
-    "static/js/main.b69bc5d4.js"
+    "static/css/main.7b0118a3.css",
+    "static/js/main.e0a665c6.js"
   ]
 }
