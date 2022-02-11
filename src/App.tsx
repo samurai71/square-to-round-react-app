@@ -8,7 +8,9 @@ import './App.css';
 // const height: number;
 
 function calculate() {
-  console.log(calculate);
+  // let lengthValue: number = 0;
+  // let widthValue: number = 0;
+  // let heightValue: number = 0;
 }
 
 window.addEventListener('click', (event) => {
@@ -56,7 +58,7 @@ function App() {
             <tr>
               <td>Length: </td>
               <td>
-                <input type='text' />
+                <input type='text' name='{lengthValue}' />
               </td>
             </tr>
             <tr>
@@ -81,6 +83,7 @@ function App() {
             </tr>
           </tbody>
         </table>
+        <h2>Results</h2>
       </header>
     </div>
   );
