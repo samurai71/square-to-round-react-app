@@ -13,9 +13,9 @@ function calculate() {
   // let heightValue: number = 0;
 }
 
-window.addEventListener('click', (event) => {
+/* window.addEventListener('click', (event) => {
   // ...
-})
+}) */
 
 //document.getElementById('calculate').addEventListener('click', calculate);
 
