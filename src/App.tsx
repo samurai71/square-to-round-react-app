@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 //import { Type } from 'typescript';
 //import logo from './logo.svg';
-import './App.css';
+import './App.css'
 
 // const length: number;
 // const width: number;
@@ -15,24 +15,24 @@ function calculate() {
 
 window.addEventListener('click', (event) => {
   // ...
-});
+})
 
 //document.getElementById('calculate').addEventListener('click', calculate);
 
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'>
+    <div className="App">
+      <header className="App-header">
         <h1>Square to Round Converter</h1>
         {/* <img src={logo} className='App-logo' alt='logo' /> */}
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <a
-          className='App-link'
-          href='https://reactjs.org'
-          target='_blank'
-          rel='noopener noreferrer'
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Learn React
         </a>
@@ -58,25 +58,25 @@ function App() {
             <tr>
               <td>Length: </td>
               <td>
-                <input type='text' name='{lengthValue}' />
+                <input type="text" name="{lengthValue}" />
               </td>
             </tr>
             <tr>
               <td>Width: </td>
               <td>
-                <input type='text' />
+                <input type="text" />
               </td>
             </tr>
             <tr>
               <td>Height: </td>
               <td>
-                <input type='text' />
+                <input type="text" />
               </td>
             </tr>
             <tr>
               <td></td>
               <td>
-                <button className='btn' id='calculate' onClick={calculate}>
+                <button className="btn" id="calculate" onClick={calculate}>
                   Calculate
                 </button>
               </td>
@@ -86,7 +86,7 @@ function App() {
         <h2>Results</h2>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
