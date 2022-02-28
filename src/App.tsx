@@ -23,9 +23,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Square to Round Converter</h1>
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -54,19 +51,25 @@ function App() {
         <table>
           <tbody>
             <tr>
-              <td>Length: </td>
+              <td>
+                <label>Length: </label>
+              </td>
               <td>
                 <input type="text" name="${lengthValue}" />
               </td>
             </tr>
             <tr>
-              <td>Width: </td>
+              <td>
+                <label>Width: </label>
+              </td>
               <td>
                 <input type="text" />
               </td>
             </tr>
             <tr>
-              <td>Height: </td>
+              <td>
+                <label>Height: </label>
+              </td>
               <td>
                 <input type="text" />
               </td>
