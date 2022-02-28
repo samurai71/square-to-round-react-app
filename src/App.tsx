@@ -8,7 +8,7 @@ import './App.css'
 // const height: number;
 
 function calculate() {
-  // let lengthValue: number = 0;
+  //let lengthValue: number = 0;
   // let widthValue: number = 0;
   // let heightValue: number = 0;
 }
