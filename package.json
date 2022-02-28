@@ -63,7 +63,7 @@
     "stylelint": "^14.5.3"
   },
   "lint-staged": {
-    "**/*.{js,jsx,ts,tsx,md,html,css}": [
+    "**/*.{js,jsx,ts,tsx,md,html}": [
       "npm run lint",
       "prettier --write"
     ],
