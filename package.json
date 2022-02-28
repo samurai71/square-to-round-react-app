@@ -67,6 +67,6 @@
       "npm run lint",
       "prettier --write"
     ],
-    "*.{png,jpeg,jpg,gif,svg}": "imagemin-lint-staged"
+    "**/*.{png,jpeg,jpg,gif,svg}": "imagemin-lint-staged"
   }
 }
