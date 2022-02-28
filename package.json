@@ -64,6 +64,9 @@
     "**/*.{js,jsx}": [
       "npm run lint",
       "prettier --write"
-    ]
+    ],
+    
+  "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write"
+
   }
 }
