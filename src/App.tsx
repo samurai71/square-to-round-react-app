@@ -58,7 +58,7 @@ function App() {
             <tr>
               <td>Length: </td>
               <td>
-                <input type="text" name="{lengthValue}" />
+                <input type="text" name="${lengthValue}" />
               </td>
             </tr>
             <tr>

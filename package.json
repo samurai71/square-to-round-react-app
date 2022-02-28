@@ -68,7 +68,6 @@
       "prettier --write"
     ],
     "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write",
-    "*.css": "stylelint",
     "*.{png,jpeg,jpg,gif,svg}": "imagemin-lint-staged"
   }
 }
