@@ -63,11 +63,10 @@
     "stylelint": "^14.5.3"
   },
   "lint-staged": {
-    "**/*.{js,jsx}": [
+    "**/*.{js,jsx,ts,tsx,md,html,css}": [
       "npm run lint",
       "prettier --write"
     ],
-    "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write",
     "*.{png,jpeg,jpg,gif,svg}": "imagemin-lint-staged"
   }
 }
