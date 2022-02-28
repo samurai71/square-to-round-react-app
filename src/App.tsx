@@ -1,6 +1,5 @@
 import React from 'react'
 //import { Type } from 'typescript'
-//import logo from './logo.svg';
 import './App.css'
 
 // const length: number;
@@ -24,7 +23,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Square to Round Converter</h1>
-        {/* <img src={logo} className='App-logo' alt='logo' /> */}
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
