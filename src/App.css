@@ -34,10 +34,32 @@
 .length {
   margin-top: 1em;
   margin-bottom: 1em;
+  padding-right: 1em;
+  text-align: left;
+  font-family: serif;
+}
+
+#info {
+  font-family: serif;
+  font-size: 0.8em;
+}
+
+#length {
+  font-family: serif;
+  vertical-align: middle;
+}
+
+#width {
+  font-family: serif;
+}
+
+#height {
+  font-family: serif;
 }
 
 .width {
   margin-bottom: 1em;
+  text-align: left;
 }
 
 table {
