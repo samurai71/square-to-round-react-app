@@ -32,27 +32,34 @@ function App() {
           Learn React
         </a>
         <br />
-        {/* <form action=''>
+        {/* <form action="">
           <br />
           <legend>Input Form</legend>
-          <label>Length </label>
-          <input type='text' className='length' name='length' />
+          <label>
+            Length:
+            <input type="text" className="length" name="length" />
+          </label>
           <br />
-          <label>Width </label>
-          <input type='text' className='width' />
+          <label>
+            Width:
+            <input type="text" className="width" />
+          </label>
           <br />
-          <label>Height </label>
-          <input type='text' className='height' />
+          <label>
+            Height:
+            <input type="text" className="height" />
+          </label>
           <br />
-          <button className='btn' id='calculate' onClick={calculate}>
+          <button className="btn" id="calculate" onClick={calculate}>
             Calculate
           </button>
         </form> */}
+        <p id="info">Please enter in the number values for the measurements:</p>
         <table>
           <tbody>
             <tr>
               <td>
-                <label>Length: </label>
+                <p id="length">Length: </p>
               </td>
               <td>
                 <input type="text" name="${lengthValue}" />
@@ -60,7 +67,7 @@ function App() {
             </tr>
             <tr>
               <td>
-                <label>Width: </label>
+                <p id="width">Width: </p>
               </td>
               <td>
                 <input type="text" />
@@ -68,7 +75,7 @@ function App() {
             </tr>
             <tr>
               <td>
-                <label>Height: </label>
+                <p id="height">Height: </p>
               </td>
               <td>
                 <input type="text" />
