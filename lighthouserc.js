@@ -3,7 +3,7 @@ module.exports = {
   ci: {
     collect: {
       staticDistDir: './build',
-      url: ['http://localhost:3000/square-to-round-react-app'],
+      url: ['http://localhost:3000/'],
       /* Add configuration here */
     },
     upload: {
