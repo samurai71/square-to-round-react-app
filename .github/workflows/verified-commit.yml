@@ -1,0 +1,2 @@
+- name: Verified commit
+  uses: swinton/commit@v2.0.0
