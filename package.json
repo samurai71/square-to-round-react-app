@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://samurai71.github.io/square-to-round-react-app/",
   "dependencies": {
+    "@lhci/cli": "^0.9.0",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
