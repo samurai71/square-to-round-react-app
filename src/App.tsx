@@ -22,7 +22,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className="font-mono">Square to Round Converter</h1>
+        <h1 className="font-mono text-5xl font-bold">
+          Square to Round Converter
+        </h1>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -32,66 +34,36 @@ function App() {
           Learn React
         </a>
         <br />
-        {/* <form action="">
+        <p id="info" className="italic">
+          Please enter in the number values for the measurements:
+        </p>
+        <form action="">
           <br />
-          <legend>Input Form</legend>
+          <legend className="mb-4">Input Form</legend>
           <label>
             Length:
-            <input type="text" className="length" name="length" />
+            <input
+              type="text"
+              className="mx-2 align-middle rounded-lg"
+              name="length"
+            />
           </label>
           <br />
           <label>
             Width:
-            <input type="text" className="width" />
+            <input type="text" className="mx-2 align-middle rounded-lg" />
           </label>
           <br />
           <label>
             Height:
-            <input type="text" className="height" />
+            <input type="text" className="mx-2 align-middle rounded-lg" />
           </label>
           <br />
           <button className="btn" id="calculate" onClick={calculate}>
             Calculate
           </button>
-        </form> */}
-        <p id="info">Please enter in the number values for the measurements:</p>
-        <table>
-          <tbody>
-            <tr>
-              <td>
-                <p id="length">Length: </p>
-              </td>
-              <td>
-                <input type="text" name="${lengthValue}" />
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p id="width">Width: </p>
-              </td>
-              <td>
-                <input type="text" />
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p id="height">Height: </p>
-              </td>
-              <td>
-                <input type="text" />
-              </td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>
-                <button className="btn" id="calculate" onClick={calculate}>
-                  Calculate
-                </button>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <h2>Results</h2>
+        </form>
+        <h2 className="text-2xl font-bold mt-5">Results</h2>
       </header>
     </div>
   )
