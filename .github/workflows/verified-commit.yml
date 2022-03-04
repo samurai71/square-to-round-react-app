@@ -1,29 +1,19 @@
-name: Verified commit
-description: GitHub Action to create verified commits
-inputs:
-  files:
-    description: |
-      Newline-separated list of files to be committed, relative to root of repository.
-    required: true
-  workspace:
-    description: |
-      Base directory containing files to be committed, defaults to the GitHub workspace directory path, $GITHUB_WORKSPACE.
-    required: false
-    default: ''
-  commit-message:
-    description: |
-      Commit message to be used
-    required: true
-  ref:
-    description: |
-      Reference to be updated with commit. This reference must already exist. Defaults to the repository's default branch ref.
-    required: false
-    default: ''
-outputs:
-  commit-sha:
-    description: SHA of created commit
-runs:
-  using: node12
-  main: dist/index.js
-branding:
-  icon: git-commit
+name: Build project and run Verified Commit
+on: [push]
+jobs:
+  lhci:
+    name: Lighthouse CI
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js 10.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 10.x
+      - name: npm install
+        run: |
+          npm install
+      - name: run Lighthouse CI
+        run: |
+          npm install -g @lhci/cli@0.3.x
+          lhci autorun --upload.target=temporary-public-storage || echo "LHCI failed!"
