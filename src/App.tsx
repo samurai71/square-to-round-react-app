@@ -59,7 +59,11 @@ function App() {
             <input type="text" className="mx-2 align-middle rounded-lg" />
           </label>
           <br />
-          <button className="btn" id="calculate" onClick={calculate}>
+          <button
+            className="btn bg-zinc-700"
+            id="calculate"
+            onClick={calculate}
+          >
             Calculate
           </button>
         </form>
