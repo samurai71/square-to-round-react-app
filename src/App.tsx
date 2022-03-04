@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Square to Round Converter</h1>
+        <h1 className="font-mono">Square to Round Converter</h1>
         <a
           className="App-link"
           href="https://reactjs.org"
