@@ -10,5 +10,8 @@ module.exports = {
       target: 'temporary-public-storage',
       /* Add configuration here */
     },
+    assert: {
+      preset: 'lighthouse:recommended',
+    },
   },
 }
