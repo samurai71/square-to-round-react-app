@@ -2,7 +2,7 @@
 module.exports = {
   ci: {
     collect: {
-      startServerCommand: 'npm run start',
+      staticDistDir: './build',
       url: ['http://localhost:3000/square-to-round-react-app'],
       /* Add configuration here */
     },
