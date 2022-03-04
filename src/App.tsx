@@ -32,7 +32,7 @@ function App() {
           Learn React
         </a>
         <br />
-        <form action="">
+        {/* <form action="">
           <br />
           <legend>Input Form</legend>
           <label>
@@ -53,7 +53,7 @@ function App() {
           <button className="btn" id="calculate" onClick={calculate}>
             Calculate
           </button>
-        </form>
+        </form> */}
         <p id="info">Please enter in the number values for the measurements:</p>
         <table>
           <tbody>
