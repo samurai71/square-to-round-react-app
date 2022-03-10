@@ -68,6 +68,7 @@ function App() {
           </button>
         </form>
         <h2 className="text-2xl font-bold mt-5">Results</h2>
+        <p>The answer is:</p>
       </header>
     </div>
   )
