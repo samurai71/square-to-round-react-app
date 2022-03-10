@@ -1,4 +1,39 @@
+[![dependency - react](https://img.shields.io/badge/dependency-react-blue)](https://www.npmjs.com/package/react)
+[![Package - react](https://img.shields.io/github/package-json/dependency-version/samurai71/square-to-round-react-app/react?color=blue)](https://www.npmjs.com/package/react)
+[![dependency - typescript](https://img.shields.io/badge/dependency-typescript-blue)](https://www.npmjs.com/package/typescript)
+[![Package - typescript](https://img.shields.io/github/package-json/dependency-version/samurai71/square-to-round-react-app/typescript?color=blue)](https://www.npmjs.com/package/typescript)
+[![dependency - tailwindcss](https://img.shields.io/badge/dependency-tailwindcss-blue)](https://www.npmjs.com/package/tailwindcss)
+[![Package - tailwindcss](https://img.shields.io/github/package-json/dependency-version/samurai71/square-to-round-react-app/dev/tailwindcss?color=blue)](https://www.npmjs.com/package/tailwindcss)
+[![dependency - jest](https://img.shields.io/badge/dependency-jest-blue)](https://www.npmjs.com/package/jest)
+[![dependency - eslint](https://img.shields.io/badge/dependency-eslint-blue)](https://www.npmjs.com/package/eslint)
+[![Package - eslint](https://img.shields.io/github/package-json/dependency-version/samurai71/square-to-round-react-app/dev/eslint?color=blue)](https://www.npmjs.com/package/eslint)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![Hosted with GH Pages](https://img.shields.io/badge/Hosted_with-GitHub_Pages-blue?logo=github&logoColor=white)](https://pages.github.com/ 'Go to GitHub Pages homepage')
+
+_Social buttons_
+
+[![samurai71 - square-to-round-react-app](https://img.shields.io/static/v1?label=samurai71&message=square-to-round-react-app&color=blue&logo=github)](https://github.com/samurai71/square-to-round-react-app 'Go to GitHub repo')
+[![stars - square-to-round-react-app](https://img.shields.io/github/stars/samurai71/square-to-round-react-app?style=social)](https://github.com/samurai71/square-to-round-react-app)
+[![forks - square-to-round-react-app](https://img.shields.io/github/forks/samurai71/square-to-round-react-app?style=social)](https://github.com/samurai71/square-to-round-react-app)
+
+_Repo metadata_
+
+<!-- [![GitHub tag](https://img.shields.io/github/tag/samurai71/square-to-round-react-app?include_prereleases=&sort=semver&color=blue)](https://github.com/samurai71/square-to-round-react-app/releases/) -->
+
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+[![issues - square-to-round-react-app](https://img.shields.io/github/issues/samurai71/square-to-round-react-app)](https://github.com/samurai71/square-to-round-react-app/issues)
+
+_Call-to-Action buttons_
+
+<div align="center">
+
+[![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://samurai71.github.io/square-to-round-react-app/)
+
+</div>
+
+## License
+
+Released under [MIT](/LICENSE) by [@samurai71](https://github.com/samurai71).
 
 # Getting Started with Create React App
 
