@@ -70,7 +70,7 @@
     "tailwindcss": "^3.0.23"
   },
   "lint-staged": {
-    "**/*.{js,jsx,ts,tsx,md,html}": [
+    "**/*.{js,jsx,ts,tsx,html}": [
       "npm run lint",
       "prettier --write"
     ],
