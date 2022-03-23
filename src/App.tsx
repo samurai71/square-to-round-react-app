@@ -40,7 +40,7 @@ function App() {
         <form action="">
           <br />
           <legend className="mb-4">Input Form</legend>
-          <label>
+          <label className="font-serif">
             Length:
             <input
               type="text"
@@ -49,12 +49,12 @@ function App() {
             />
           </label>
           <br />
-          <label>
+          <label className="font-serif">
             Width:
             <input type="text" className="mx-2 align-middle rounded-lg" />
           </label>
           <br />
-          <label>
+          <label className="font-serif">
             Height:
             <input type="text" className="mx-2 align-middle rounded-lg" />
           </label>
