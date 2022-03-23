@@ -1,6 +1,6 @@
 import React from 'react'
 //import { Type } from 'typescript'
-import './App.css'
+//import './App.css'
 
 // const length: number;
 // const width: number;
