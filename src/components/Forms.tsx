@@ -8,7 +8,10 @@ function calculate() {
 }
 
 function Form() {
+  //const length = number: React.useState(0)
   const [length, setLength] = React.useState(0)
+  const [width, setWidth] = React.useState(0)
+  const [height, setHeight] = React.useState(0)
   return (
     <>
       <p id="info" className="italic">
@@ -29,12 +32,22 @@ function Form() {
         <br />
         <label className="font-serif">
           Width:
-          <input type="text" className="mx-2 align-middle rounded-lg" />
+          <input
+            type="text"
+            className="mx-2 align-middle rounded-lg"
+            name="width"
+            value={width}
+          />
         </label>
         <br />
         <label className="font-serif">
           Height:
-          <input type="text" className="mx-2 align-middle rounded-lg" />
+          <input
+            type="text"
+            className="mx-2 align-middle rounded-lg"
+            name="height"
+            value={height}
+          />
         </label>
         <br />
         <button className="btn bg-zinc-700" id="calculate" onClick={calculate}>
