@@ -8,7 +8,7 @@ function calculate() {
 }
 
 function Form() {
-  //const length = number: React.useState(0)
+  //const length: number = React.useState(0)
   const [length, setLength] = React.useState(0)
   const [width, setWidth] = React.useState(0)
   const [height, setHeight] = React.useState(0)
