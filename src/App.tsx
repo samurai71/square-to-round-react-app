@@ -1,10 +1,12 @@
 import React from 'react'
 //import { Type } from 'typescript'
+import Form from './components/Forms'
 import './App.css'
 
 // const length: number;
 // const width: number;
 // const height: number;
+//const (length, setState)= React.useState()
 
 function calculate() {
   //let lengthValue: number = 0;
@@ -34,7 +36,8 @@ function App() {
           Learn React
         </a>
         <br />
-        <p id="info" className="italic">
+        <Form />
+        {/* <p id="info" className="italic">
           Please enter in the number values for the measurements:
         </p>
         <form action="">
@@ -66,7 +69,7 @@ function App() {
           >
             Calculate
           </button>
-        </form>
+        </form> */}
         <h2 className="text-2xl font-bold mt-5">Results</h2>
         <p>The answer is:</p>
       </header>
