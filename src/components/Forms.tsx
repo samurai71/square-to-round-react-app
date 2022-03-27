@@ -1,17 +1,35 @@
 import React from 'react'
 import '../App.css'
 
-function calculate() {
-  //let lengthValue: number = 0;
-  // let widthValue: number = 0;
-  // let heightValue: number = 0;
-}
-
 function Form() {
   //const length: number = React.useState(0)
-  const [length, setLength] = React.useState(0)
-  const [width, setWidth] = React.useState(0)
-  const [height, setHeight] = React.useState(0)
+  const [state, setState] = React.useState({
+    length: 0,
+    width: 0,
+    height: 0,
+  })
+  // function handleChange (event) => {
+  //   const name = event.target.name
+  //   const value =
+  //     event.target.type === 'checkbox'
+  //       ? event.target.checked
+  //       : event.target.value
+  //   setState({
+  //     ...state,
+  //     [name]: value,
+  //   })
+  // }
+  // function handleChange(event) {
+  //     setState (prevState => {
+  //       return {
+  //         ...prevState,
+  //           [event.target.name]: event.target.value
+  //       }
+  //     }),
+  //   }
+  // function calculate() {
+  //   const result = state.length * state.width * state.height
+  // }
   return (
     <>
       <p id="info" className="italic">
@@ -26,7 +44,8 @@ function Form() {
             type="text"
             className="mx-2 align-middle rounded-lg"
             name="length"
-            value={length}
+            value={state.length}
+            onChange={handleChange}
           />
         </label>
         <br />
@@ -36,7 +55,8 @@ function Form() {
             type="text"
             className="mx-2 align-middle rounded-lg"
             name="width"
-            value={width}
+            value={state.width}
+            onChange={handleChange}
           />
         </label>
         <br />
@@ -46,14 +66,17 @@ function Form() {
             type="text"
             className="mx-2 align-middle rounded-lg"
             name="height"
-            value={height}
+            value={state.height}
+            onChange={handleChange}
           />
         </label>
         <br />
-        <button className="btn bg-zinc-700" id="calculate" onClick={calculate}>
+        {/* <button className="btn bg-zinc-700" id="calculate" onClick={calculate}>
           Calculate
-        </button>
+        </button> */}
       </form>
+      <h2 className="text-2xl font-bold mt-5">Results</h2>
+      {/* <p>The answer is: {result}</p> */}
     </>
   )
 }
