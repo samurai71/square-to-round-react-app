@@ -8,7 +8,7 @@ function Form() {
   //   width: 0,
   //   height: 0,
   // })
-  // function handleChange (event) => {
+  // function handleChange(event) => {
   //   const name = event.target.name
   //   const value =
   //     event.target.type === 'checkbox'
