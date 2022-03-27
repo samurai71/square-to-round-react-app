@@ -3,11 +3,11 @@ import '../App.css'
 
 function Form() {
   //const length: number = React.useState(0)
-  const [state, setState] = React.useState({
-    length: 0,
-    width: 0,
-    height: 0,
-  })
+  // const [state, setState] = React.useState({
+  //   length: 0,
+  //   width: 0,
+  //   height: 0,
+  // })
   // function handleChange (event) => {
   //   const name = event.target.name
   //   const value =
@@ -27,9 +27,9 @@ function Form() {
   //       }
   //     }),
   //   }
-  // function calculate() {
-  //   const result = state.length * state.width * state.height
-  // }
+  function calculate() {
+    // const result = state.length * state.width * state.height
+  }
   return (
     <>
       <p id="info" className="italic">
@@ -44,8 +44,8 @@ function Form() {
             type="text"
             className="mx-2 align-middle rounded-lg"
             name="length"
-            value={state.length}
-            onChange={handleChange}
+            //value={state.length}
+            // onChange={handleChange}
           />
         </label>
         <br />
@@ -55,8 +55,8 @@ function Form() {
             type="text"
             className="mx-2 align-middle rounded-lg"
             name="width"
-            value={state.width}
-            onChange={handleChange}
+            //value={state.width}
+            //onChange={handleChange}
           />
         </label>
         <br />
@@ -66,14 +66,14 @@ function Form() {
             type="text"
             className="mx-2 align-middle rounded-lg"
             name="height"
-            value={state.height}
-            onChange={handleChange}
+            //value={state.height}
+            //onChange={handleChange}
           />
         </label>
         <br />
-        {/* <button className="btn bg-zinc-700" id="calculate" onClick={calculate}>
+        <button className="btn bg-zinc-700" id="calculate" onClick={calculate}>
           Calculate
-        </button> */}
+        </button>
       </form>
       <h2 className="text-2xl font-bold mt-5">Results</h2>
       {/* <p>The answer is: {result}</p> */}
